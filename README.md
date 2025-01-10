@@ -12,9 +12,10 @@ Solving the [CartPole classic control problem](https://gymnasium.farama.org/envi
 | DQN (Manual Implementation) | TensorFlow & NumPy | 100 | 808 | 254 | 5000 (x9) | 76 min | 5 hours | 438 | 
 | DQN (API Implementation) | Stable Baselines 3 | 100 | 5000 | 5000 | 5000 (x100) | 1 min 51 sec | 11 min | 9,675 (1M steps) |
 
+**All 3 approaches were able to solve the problem/environment.**
+
 #### Notes:
 
-- All 3 approaches were able to solve the problem/environment.
 - **Wins:**  Indicates the number, out of 100 testing trials, where the agent achieved the win criterion (>= 195 steps).
 - **Median/Minimum/Maximum Steps:**  Performance of the trained agent during its 100 testing trials. The "(x#)" in the "Maximum Steps" column indicates how many times the agent reached the max number of steps (5,000) during the 100 trials. This helps to show how often the agent was hitting the environment's limit.
 - **Inference Time:** The time taken for the trained agent to play 100 trials.
