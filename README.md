@@ -7,7 +7,7 @@ Solving the CartPole classic control problem using 3 different approaches to pra
 1) FrozenLake - Classical Q-Learning
 2) CartPole - Classical Q-Learning with Discretization
 3) CartPole - DQN Using a Manual Implementation
-4) CartPole - DQN Using Keras-RL
+4) CartPole - DQN Using Stable Baselines 3
 
 #### 1) FrozenLake - Classical Q-Learning
 - [Background on the FrozenLake problem](https://gymnasium.farama.org/environments/toy_text/frozen_lake/)
@@ -21,4 +21,4 @@ Solving the CartPole classic control problem using 3 different approaches to pra
 
 #### 3) CartPole - DQN Using a Manual Implementation
 
-#### 4) CartPole - DQN Using Keras-RL
+#### 4) CartPole - DQN Using Stable Baselines 3
