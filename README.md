@@ -54,4 +54,4 @@ Solving the [CartPole classic control problem](https://gymnasium.farama.org/envi
 
 #### FrozenLake Training Results:
 
-<img src="assets/img/frozenlake-training-success-rate-over-time.png" width=350">
+<img src="assets/img/frozenlake-training-success-rate-over-time.png" width="350">
