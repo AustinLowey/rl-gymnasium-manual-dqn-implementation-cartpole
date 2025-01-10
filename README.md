@@ -8,9 +8,9 @@ Solving the [CartPole classic control problem](https://gymnasium.farama.org/envi
 #### Cartpole Results Summary of 3 Different RL Approaches:
 | Approach | Implemented With | Wins | Median Steps | Minimum Steps | Maximum Steps | Inference Time | Training Time | Episodes Trained |
 |---|---|---|---|---|---|---|---|---|
-| Classical Q-Learning with Discretization | NumPy | 100 | 448 | 212 | 1814 | 2 sec | 12 min | 50,000 |
-| DQN (Manual Implementation) | TensorFlow & NumPy | 100 | 808 | 254 | 5000 (x9) | 76 min | 5 hours | 438 | 
-| DQN (API Implementation) | Stable Baselines 3 | 100 | 5000 | 5000 | 5000 (x100) | 1 min 51 sec | 11 min | 9,675 (1M steps) |
+| Classical Q-Learning with Discretization | NumPy | 100 | 448 | **212** | 1814 | 2 sec | 12 min | 50,000 |
+| DQN (Manual Implementation) | TensorFlow & NumPy | 100 | 808 | **254** | 5000 (x9) | 76 min | 5 hours | 438 | 
+| DQN (API Implementation) | Stable Baselines 3 | 100 | 5000 | **5000** | 5000 (x100) | 1 min 51 sec | 11 min | 9,675 (1M steps) |
 
 #### Notes:
 
